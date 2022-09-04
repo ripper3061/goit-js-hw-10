@@ -12,10 +12,10 @@ fetch(
   })
   .then(country => {
     console.log(country);
-    const { population } = country;
+
     let cardMarkup = `<div class='card'>
                         <div class='country-name'>
-                            <p class='country-name-text'>${population}</p>
+                            <p class='country-name-text'>${name.official}</p>
                         </div>
                     </div>`;
     countryCard.innerHTML = cardMarkup;
