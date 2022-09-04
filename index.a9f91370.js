@@ -1,0 +1,2 @@
+!function(){var n=document.querySelector(".country-info");fetch("https://restcountries.com/v3.1/name/peru?fields=name,capital,population,flags,languages").then((function(n){return n.json()})).then((function(e){console.log(e);var t="<div class='card'>\n                        <div class='country-name'>\n                            <p class='country-name-text'>".concat(name.official,"</p>\n                        </div>\n                    </div>");n.innerHTML=t}))}();
+//# sourceMappingURL=index.a9f91370.js.map

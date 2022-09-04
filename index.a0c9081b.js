@@ -1,0 +1,2 @@
+const n=document.querySelector(".country-info");fetch("https://restcountries.com/v3.1/name/peru?fields=name,capital,population,flags,languages").then((n=>n.json())).then((e=>{console.log(e);let t=`<div class='card'>\n                        <div class='country-name'>\n                            <p class='country-name-text'>${name.official}</p>\n                        </div>\n                    </div>`;n.innerHTML=t}));
+//# sourceMappingURL=index.a0c9081b.js.map
